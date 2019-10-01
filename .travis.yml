@@ -7,6 +7,9 @@ cache: packages
 addons:
   apt:
     packages:
+      - libproj-dev
+      - libgeos-dev
+      - libgdal-dev
       - netcdf-bin
       - libnetcdf-dev
       - python3-pip
