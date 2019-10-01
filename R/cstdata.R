@@ -360,7 +360,7 @@ Argument_Reference <- setRefClass(
       args[["CCSM4"]]$ensemble <- "r6i1p1"
 
       return(args[[model]])
-    },
+    }
   )
 )
 
